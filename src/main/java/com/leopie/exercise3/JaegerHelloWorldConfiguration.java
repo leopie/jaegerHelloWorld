@@ -15,7 +15,7 @@ public class JaegerHelloWorldConfiguration {
                 .withParam(1);
         ReporterConfiguration reporterConfiguration = new ReporterConfiguration()
                 .withLogSpans(true);
-        return new io.jaegertracing.Configuration("java-2-hello")
+        return new io.jaegertracing.Configuration("java-3-hello")
                 .withSampler(samplerConfiguration)
                 .withReporter(reporterConfiguration)
                 .getTracer();
