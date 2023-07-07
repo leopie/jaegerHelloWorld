@@ -3,5 +3,4 @@
 .idea/
 .settings/
 target/
-BigBrother/
-Formatter/
+*.iml
